@@ -2,13 +2,25 @@
 
 This is and Android view intended to show a breadcrumb of a given path
 
-## Setting app
+![Screenshot](https://raw.githubusercontent.com/worldline-spain/breadcumbview/master/art/screenshot.png "Example")
 
-Gradle pending...
+
+## Installing
+
+Just add the following to your build.gradle file
+
+```groovy
+  compile 'com.worldline:breadcrumbview:1.0.0'
+```
 
 ## Usage
+First, add a namespace into your layout for the non-system resources, for example:
 
-Insert the view on your layout or instantiate it. Here an example:
+```xml
+    xmlns:mondrian="http://schemas.android.com/apk/res-auto"
+```
+
+Insert the view on your layout. Here an example:
 
 ```xml
     <com.worldline.breadcrumbview.BreadcrumbView

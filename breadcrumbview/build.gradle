@@ -1,5 +1,13 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -18,4 +26,11 @@ android {
     }
 }
 
-
+publish {
+    userOrg = 'worldline-spain'
+    groupId = 'com.worldline'
+    artifactId = 'breadcrumbview'
+    publishVersion = '1.0.0'
+    desc = 'An Android Layout to show paths in a breadcrumb'
+    website = 'https://github.com/worldline-spain/breadcrumbview'
+}
