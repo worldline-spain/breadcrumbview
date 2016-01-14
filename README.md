@@ -17,7 +17,7 @@ Just add the following to your build.gradle file
 First, add a namespace into your layout for the non-system resources, for example:
 
 ```xml
-    xmlns:mondrian="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 ```
 
 Insert the view on your layout. Here an example:
