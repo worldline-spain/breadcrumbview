@@ -2,7 +2,7 @@
 
 This is and Android view intended to show a breadcrumb of a given path
 
-![Screenshot](https://raw.githubusercontent.com/worldline-spain/breadcumbview/master/art/screenshot.png "Example")
+![Screenshot](https://raw.githubusercontent.com/worldline-spain/breadcrumbview/master/art/screenshot.png "Example")
 
 
 ## Installing
